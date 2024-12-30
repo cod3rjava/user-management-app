@@ -2,6 +2,11 @@
 
 Welcome to the React App! This README provides all the necessary information to get started with the project.
 
+##  Live URL
+
+Access the application directly at:
+http://3.110.194.124:3000/
+
 ##  Installation
 
 To install the project dependencies, run the following command:
@@ -31,4 +36,18 @@ Ran all test suites related to changed files.
 ```
 
 This will run all the available test cases in the project.
+
+##  Running with Docker
+
+To pull the Docker image and run the application locally, follow these steps:
+
+-   Pull the Docker image:
+
+>   docker pull cod3rjava/user-management-app
+
+-   Run the Docker container:
+
+>   docker run -p 3000:3000 cod3rjava/user-management-app
+
+Access the application at http://localhost:3000/
 
